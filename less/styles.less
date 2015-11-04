@@ -11,19 +11,61 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 body {
-	background-color:white; 
+	background-color:white;
 }
+header {
+	padding-top:100px;
+	padding-bottom:100px;
+}
+h1 {font-size: 60px; text-align: center; margin-top:0; margin-bottom: 50px;}
+h2{color:white; font-size: 40px;margin-top:0;}
+h3{font-size: 30px;}
+p {font-size: 18px;
+	span {color:@brand-lightblue; font-weight: bold;}
+}
+.btn.btn-primary {
+	background-color: white;
+	border: 2px solid @brand-lightblue;
+	color:@brand-lightblue;
+}
+#mission {
+	background-color: white;
+	padding-top:50px;
+	padding-bottom:50px;
+	.btn-container {
+		text-align: center;
+	}
+}
+#testimonios {
+	background: url(../img/bg-testimonios.jpg) no-repeat;
+}
+#newlook {
+	background-color: @brand-lightblue;
+	padding-top:100px;
+	padding-bottom:100px;
+	h2 {color:@brand-blue;}
+}
+footer {
+	background-color: @brand-black;
+	padding-bottom: 50px;
+	h2{
+		margin-top:50px;
+	}
+	h4,p{color:@brand-gray;}
+	a{color:@brand-gray;}
+}
+#pie-pagina {margin-top: 20px;}
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
-	
+@media (min-width: @screen-sm-min) {
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
-	
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
-	
+
 }

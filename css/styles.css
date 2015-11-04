@@ -1,23 +1,43 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 body {
-  background-color: red;
+  background-color: white;
+}
+header {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#mission {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#mission .btn.btn-primary.btn-lg {
+  margin: 0 auto;
+}
+#testimonios {
+  background: url(../img/bg-testimonios.jpg) no-repeat;
+}
+#testimonios h2 {
+  padding-bottom: 25px;
+}
+#newlook {
+  background-color: #73d1f3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+footer {
+  background-color: #414042;
+}
+footer h3 {
+  color: white;
+}
+footer p {
+  color: #93958e;
+}
+footer a {
+  color: white;
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  body {
-    background-color: pink;
-  }
-}
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  body {
-    background-color: blue;
-  }
-}
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
-}
